@@ -41,13 +41,11 @@ for i in list:
 print(sum(list2))
 newlista=[]
 newlistb=[]
-for item in list:
+for item in list:                   #modified the code if you want to use calculate for each numbs item
     newlista.append((item/60))
 for item in list2:
     newlistb.append(math.sqrt(item))
 stdev= (statistics.stdev(newlista))
 var=statistics.variance(newlista)
-#print(stdev,var)
-#print(newlistb)
 
 #credit William Kwon
